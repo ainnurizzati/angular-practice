@@ -1,0 +1,12 @@
+:host :root {
+    --pastel-green: #DEF2C8;
+    --pastel-red: #BD6B73;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+[type=button]{
+    background-color: var(--pastel-red);
+    color: white;
+    border: none;
+}

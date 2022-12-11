@@ -1,0 +1,33 @@
+::ng-deep :root {
+    --pastel-green: #DEF2C8;
+    --pastel-red: #BD6B73;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.header-custom {
+    background-color: var(--pastel-green);
+    padding: 10px;
+}
+
+.logo-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.card-link {
+    color: black;
+}
+
+.nav-pills .nav-link {
+    color: var(--pastel-red);
+}
+
+.nav-link.active {
+    background-color: var(--pastel-red) !important;
+    color: white !important;
+}
+
+.badge {
+    font-size: 0.6em;
+}

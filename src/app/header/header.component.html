@@ -1,0 +1,52 @@
+<div class="d-flex justify-content-end header-custom">
+    <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap" />
+      </svg>
+      <span class="fs-4 logo-title">
+        VelvetSoftware
+      </span>
+    </a>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a routerLink='' class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a routerLink="aboutus" class="nav-link">About Us</a></li>
+      <li class="nav-item"><a routerLink="ourservices" class="nav-link">Services</a></li>
+      <li class="nav-item"><a routerLink="ourwork" class="nav-link">Our Work</a></li>
+      <li class="nav-item dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+          aria-expanded="false" style="color: #BD6B73">
+          Career
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="applyjob">Apply now</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a routerLink="login" class="nav-link">Login</a></li>
+      <li class="nav-item">
+        <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+
+          </svg>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Notifications</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>No notifications</p>
+            </div>
+          </div>
+          <span class="translate-middle badge rounded-pill bg-danger">
+            2
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+

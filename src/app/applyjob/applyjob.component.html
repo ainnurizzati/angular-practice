@@ -1,0 +1,40 @@
+<div class="container-fluid job-custom">
+    <h1>Job Application Form</h1>
+    <form>
+        <div class="form-custom">
+            <label>First name: </label>
+            <input type="text" placeholder="Enter your first name" name="first_name" id="first_name" /><br><br>
+            <label>Last name: </label>
+            <input type="text" placeholder="Enter your last name" name="last_name" id="last_name" /><br><br>
+            <label>Date of Birth: </label>
+            <input type="date" min="1995-01-01" max="2022-11-28" /><br>
+            <br>
+            <label>Gender: </label>
+            <label><input type="radio" name="gender" value="male" />Male</label>
+            <label><input type="radio" name="gender" value="female" />Female</label><br>
+            <br>
+            <label>Educational Qualification :</label><br><br>
+            <label><input type="checkbox" name="edu" id="diploma"/>Diploma</label><br>
+            <label><input type="checkbox" name="edu" id="bachelor"/>Bachelor's Degree</label><br>
+            <label><input type="checkbox" name="edu" id="master"/>Master's Degree</label><br>
+            <br>
+            <label>Your current employment status? </label><br><br>
+            <label><input type="radio" name="status" id="employed"/>Employed</label><br>
+            <label><input type="radio" name="status" id="selfemployed"/>Self-Employed</label><br>
+            <label><input type="radio" name="status" id="unemployed"/>Unemployed</label><br>
+            <label><input type="radio" name="status" id="student"/>Student</label><br>
+            <br>
+            <label>Position you're applying for</label>
+            <select>
+                <option value="software-eng">Software Engineer</option>
+                <option value="businessanalyst">Business Analyst</option>
+                <option value="qatester">QA Tester</option>
+                <option value="admin">Administration</option>
+            </select><br>
+            <br>
+           
+        </div>
+        <input type="submit"/>
+        <input type="reset" />
+    </form>
+</div>
